@@ -1,0 +1,4 @@
+platform :ios, '6.0'
+pod 'TWRProgressView'
+pod 'PPiAwesomeButton'
+pod 'FontAwesome+iOS', :git => 'git@github.com:alexdrone/ios-fontawesome.git'

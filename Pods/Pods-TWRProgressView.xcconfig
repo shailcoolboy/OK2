@@ -1,0 +1,1 @@
+PODS_TWRPROGRESSVIEW_OTHER_LDFLAGS = -framework QuartzCore

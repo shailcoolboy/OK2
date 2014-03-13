@@ -1,0 +1,21 @@
+PODS:
+  - FontAwesome+iOS (0.1.1)
+  - PPiAwesomeButton (1.2.9):
+    - FontAwesome+iOS
+  - TWRProgressView (0.1)
+
+DEPENDENCIES:
+  - FontAwesome+iOS (from `git@github.com:alexdrone/ios-fontawesome.git`)
+  - PPiAwesomeButton
+  - TWRProgressView
+
+EXTERNAL SOURCES:
+  FontAwesome+iOS:
+    :git: git@github.com:alexdrone/ios-fontawesome.git
+
+SPEC CHECKSUMS:
+  FontAwesome+iOS: 243c5309e90d5788909b0f859f75ecff4a20f88f
+  PPiAwesomeButton: 8d8bc4cf62d8c848e433a1f405e019deee2821dc
+  TWRProgressView: cc0e04be23e596def3ea75f5375b51be65ec070d
+
+COCOAPODS: 0.29.0
