@@ -15,6 +15,7 @@
 {
     [Parse setApplicationId:@"WztVge6rpDGqGsj9eBPCrzk1JPS0imJH82n5OwDD"
                   clientKey:@"YimK5EoWrC9CalJtD8BhEIB8FP0hKQFCRZEOwt6v"];
+    [self customizeUserInterface];
 
     // Override point for customization after application launch.
     return YES;
@@ -47,4 +48,10 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+# pragma mark
+- (void)customizeUserInterface{
+
+    //customize the navbar
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0 green:.478 blue:1.0 alpha:1.0]];
+}
 @end

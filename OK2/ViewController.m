@@ -19,6 +19,7 @@
 {
     
     [super viewDidLoad];
+    self.navigationItem.hidesBackButton = YES;
     
     UIGraphicsBeginImageContext(self.view.frame.size);
     [[UIImage imageNamed:@"login@2x.png"] drawInRect:self.view.bounds];
@@ -103,6 +104,19 @@
     return YES;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+    [super viewWillAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
+    [super viewWillDisappear:animated];
+}
+
+
 - (IBAction)signin:(id)sender {
     NSString *name = self.username.text;
     NSString *pass = self.password.text;
@@ -111,7 +125,8 @@
                                         if (user) {
                                             // Do stuff after successful login.
                                             NSLog(@"login success:");
-                                            [self performSegueWithIdentifier:@"succ" sender:self];
+                                            //[self performSegueWithIdentifier:@"succ" sender:self];
+                                            [self.navigationController popToRootViewControllerAnimated:YES];
                                             
                                         } else {
                                             NSLog(@"login failed:");

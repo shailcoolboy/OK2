@@ -57,6 +57,13 @@
 		AE40852118D244B800ACDC3E /* bottle2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE40852018D244B800ACDC3E /* bottle2.png */; };
 		AE40852618D2613200ACDC3E /* Slice 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE40852418D2613200ACDC3E /* Slice 1.png */; };
 		AE40852718D2613200ACDC3E /* Slice 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE40852518D2613200ACDC3E /* Slice 1@2x.png */; };
+		AECF009018D2906C009B0AE7 /* nav@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF008E18D2906C009B0AE7 /* nav@2x.png */; };
+		AECF009118D2906C009B0AE7 /* nav.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF008F18D2906C009B0AE7 /* nav.png */; };
+		AECF009418D296BC009B0AE7 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF009218D296BC009B0AE7 /* list.png */; };
+		AECF009518D296BC009B0AE7 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF009318D296BC009B0AE7 /* list@2x.png */; };
+		AECF009818D29836009B0AE7 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF009618D29836009B0AE7 /* cart.png */; };
+		AECF009918D29836009B0AE7 /* cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF009718D29836009B0AE7 /* cart@2x.png */; };
+		AECF009C18D2A530009B0AE7 /* homeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECF009B18D2A530009B0AE7 /* homeTableViewController.m */; };
 		AEDED84F18D21406006690A1 /* boxes256.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDED84E18D21406006690A1 /* boxes256.png */; };
 		AEDED85518D21E30006690A1 /* usr.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDED85118D21E30006690A1 /* usr.png */; };
 		AEDED85618D21E30006690A1 /* usr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDED85218D21E30006690A1 /* usr@2x.png */; };
@@ -173,6 +180,14 @@
 		AE40852018D244B800ACDC3E /* bottle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottle2.png; path = ../../../Downloads/icon_29786/bottle2.png; sourceTree = "<group>"; };
 		AE40852418D2613200ACDC3E /* Slice 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slice 1.png"; path = "../../../Downloads/Slice 1.png"; sourceTree = "<group>"; };
 		AE40852518D2613200ACDC3E /* Slice 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slice 1@2x.png"; path = "../../../Downloads/Slice 1@2x.png"; sourceTree = "<group>"; };
+		AECF008E18D2906C009B0AE7 /* nav@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nav@2x.png"; path = "../../../Downloads/nav@2x.png"; sourceTree = "<group>"; };
+		AECF008F18D2906C009B0AE7 /* nav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nav.png; path = ../../../Downloads/nav.png; sourceTree = "<group>"; };
+		AECF009218D296BC009B0AE7 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list.png; path = ../../../Downloads/list.png; sourceTree = "<group>"; };
+		AECF009318D296BC009B0AE7 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list@2x.png"; path = "../../../Downloads/list@2x.png"; sourceTree = "<group>"; };
+		AECF009618D29836009B0AE7 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cart.png; path = ../../../Downloads/cart.png; sourceTree = "<group>"; };
+		AECF009718D29836009B0AE7 /* cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart@2x.png"; path = "../../../Downloads/cart@2x.png"; sourceTree = "<group>"; };
+		AECF009A18D2A530009B0AE7 /* homeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeTableViewController.h; sourceTree = "<group>"; };
+		AECF009B18D2A530009B0AE7 /* homeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeTableViewController.m; sourceTree = "<group>"; };
 		AEDED84E18D21406006690A1 /* boxes256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boxes256.png; path = "../../../Downloads/Grocery Icon Set by @weirdeetz/boxes256.png"; sourceTree = "<group>"; };
 		AEDED85118D21E30006690A1 /* usr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usr.png; path = ../../../Desktop/login/usr.png; sourceTree = "<group>"; };
 		AEDED85218D21E30006690A1 /* usr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "usr@2x.png"; path = "../../../Desktop/login/usr@2x.png"; sourceTree = "<group>"; };
@@ -299,6 +314,12 @@
 		AEDED85018D21E1A006690A1 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				AECF009218D296BC009B0AE7 /* list.png */,
+				AECF009618D29836009B0AE7 /* cart.png */,
+				AECF009718D29836009B0AE7 /* cart@2x.png */,
+				AECF009318D296BC009B0AE7 /* list@2x.png */,
+				AECF008E18D2906C009B0AE7 /* nav@2x.png */,
+				AECF008F18D2906C009B0AE7 /* nav.png */,
 				AE40852418D2613200ACDC3E /* Slice 1.png */,
 				AE40852518D2613200ACDC3E /* Slice 1@2x.png */,
 				AE40852018D244B800ACDC3E /* bottle2.png */,
@@ -390,6 +411,8 @@
 				AE32082118CBF64500A541DE /* tableViewController.m */,
 				AE40851D18D2410100ACDC3E /* twoViewController.h */,
 				AE40851E18D2410100ACDC3E /* twoViewController.m */,
+				AECF009A18D2A530009B0AE7 /* homeTableViewController.h */,
+				AECF009B18D2A530009B0AE7 /* homeTableViewController.m */,
 			);
 			path = OK2;
 			sourceTree = "<group>";
@@ -512,21 +535,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECF009018D2906C009B0AE7 /* nav@2x.png in Resources */,
 				AE3B464618D1926300A5F081 /* frontscreen.png in Resources */,
 				AEDED85C18D21F2A006690A1 /* login_back@2x.png in Resources */,
+				AECF009918D29836009B0AE7 /* cart@2x.png in Resources */,
 				AEDED84F18D21406006690A1 /* boxes256.png in Resources */,
 				AEDED85B18D21F2A006690A1 /* login_back.png in Resources */,
+				AECF009818D29836009B0AE7 /* cart.png in Resources */,
 				AE32081218CBE3FA00A541DE /* AppIcon72x72.png in Resources */,
 				AE32081718CBE3FA00A541DE /* iTunesArtwork@2x.png in Resources */,
+				AECF009118D2906C009B0AE7 /* nav.png in Resources */,
 				AEDED85618D21E30006690A1 /* usr@2x.png in Resources */,
 				AEDED86018D2200A006690A1 /* login@2x.png in Resources */,
 				AEDED85518D21E30006690A1 /* usr.png in Resources */,
+				AECF009418D296BC009B0AE7 /* list.png in Resources */,
 				AE32080B18CBE3F100A541DE /* bg1.jpg in Resources */,
 				AE32081418CBE3FA00A541DE /* AppIcon76x76.png in Resources */,
 				AE32081318CBE3FA00A541DE /* AppIcon72x72@2x.png in Resources */,
 				AE32081518CBE3FA00A541DE /* AppIcon76x76@2x.png in Resources */,
 				AEFC39D318CBE0C6008D2133 /* Images.xcassets in Resources */,
 				AEDED85818D21E30006690A1 /* wazo 1@2x.png in Resources */,
+				AECF009518D296BC009B0AE7 /* list@2x.png in Resources */,
 				AE40851C18D2408A00ACDC3E /* bottle.png in Resources */,
 				AE32081B18CBE40500A541DE /* FlatSignIn.png in Resources */,
 				AE32081A18CBE40500A541DE /* face.png in Resources */,
@@ -614,6 +643,7 @@
 				AE32085018CBFB0700A541DE /* AFURLResponseSerialization.m in Sources */,
 				AE3207E818CBE1C500A541DE /* listViewController.m in Sources */,
 				AE32082218CBF64500A541DE /* tableViewController.m in Sources */,
+				AECF009C18D2A530009B0AE7 /* homeTableViewController.m in Sources */,
 				AE32085818CBFB0700A541DE /* UIRefreshControl+AFNetworking.m in Sources */,
 				AE32080918CBE31600A541DE /* RMScannerView.m in Sources */,
 				AEFC39C718CBE0C6008D2133 /* main.m in Sources */,
