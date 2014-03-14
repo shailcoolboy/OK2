@@ -64,6 +64,7 @@
 		AECF009818D29836009B0AE7 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF009618D29836009B0AE7 /* cart.png */; };
 		AECF009918D29836009B0AE7 /* cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF009718D29836009B0AE7 /* cart@2x.png */; };
 		AECF009C18D2A530009B0AE7 /* homeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECF009B18D2A530009B0AE7 /* homeTableViewController.m */; };
+		AECF009F18D2DBB1009B0AE7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECF009E18D2DBB1009B0AE7 /* DetailViewController.m */; };
 		AEDED84F18D21406006690A1 /* boxes256.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDED84E18D21406006690A1 /* boxes256.png */; };
 		AEDED85518D21E30006690A1 /* usr.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDED85118D21E30006690A1 /* usr.png */; };
 		AEDED85618D21E30006690A1 /* usr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDED85218D21E30006690A1 /* usr@2x.png */; };
@@ -188,6 +189,8 @@
 		AECF009718D29836009B0AE7 /* cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart@2x.png"; path = "../../../Downloads/cart@2x.png"; sourceTree = "<group>"; };
 		AECF009A18D2A530009B0AE7 /* homeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeTableViewController.h; sourceTree = "<group>"; };
 		AECF009B18D2A530009B0AE7 /* homeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeTableViewController.m; sourceTree = "<group>"; };
+		AECF009D18D2DBB1009B0AE7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AECF009E18D2DBB1009B0AE7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		AEDED84E18D21406006690A1 /* boxes256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boxes256.png; path = "../../../Downloads/Grocery Icon Set by @weirdeetz/boxes256.png"; sourceTree = "<group>"; };
 		AEDED85118D21E30006690A1 /* usr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usr.png; path = ../../../Desktop/login/usr.png; sourceTree = "<group>"; };
 		AEDED85218D21E30006690A1 /* usr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "usr@2x.png"; path = "../../../Desktop/login/usr@2x.png"; sourceTree = "<group>"; };
@@ -413,6 +416,8 @@
 				AE40851E18D2410100ACDC3E /* twoViewController.m */,
 				AECF009A18D2A530009B0AE7 /* homeTableViewController.h */,
 				AECF009B18D2A530009B0AE7 /* homeTableViewController.m */,
+				AECF009D18D2DBB1009B0AE7 /* DetailViewController.h */,
+				AECF009E18D2DBB1009B0AE7 /* DetailViewController.m */,
 			);
 			path = OK2;
 			sourceTree = "<group>";
@@ -642,6 +647,7 @@
 				AE40851F18D2410100ACDC3E /* twoViewController.m in Sources */,
 				AE32085018CBFB0700A541DE /* AFURLResponseSerialization.m in Sources */,
 				AE3207E818CBE1C500A541DE /* listViewController.m in Sources */,
+				AECF009F18D2DBB1009B0AE7 /* DetailViewController.m in Sources */,
 				AE32082218CBF64500A541DE /* tableViewController.m in Sources */,
 				AECF009C18D2A530009B0AE7 /* homeTableViewController.m in Sources */,
 				AE32085818CBFB0700A541DE /* UIRefreshControl+AFNetworking.m in Sources */,

@@ -7,7 +7,9 @@
 //
 
 #import "scanViewController.h"
-#import "listViewController.h"
+//#import "listViewController.h"
+#import "DetailViewController.h"
+
 
 @interface scanViewController ()
 @property (nonatomic) NSString * barcode1;
@@ -88,8 +90,12 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([segue.identifier isEqualToString:@"api"]){
         
+        //UINavigationController *navController = (UINavigationController*)segue.destinationViewController;
+        //DetailViewController *controller1 =  (DetailViewController*)segue.destinationViewController;
+        //DetailViewController *controller1 = [segue destinationViewController];
+        //DetailViewController *controller1 = (DetailViewController *)navController.topViewController;
         UINavigationController *navController = (UINavigationController*)segue.destinationViewController;
-        listViewController *controller1 =  (listViewController*)navController.topViewController;
+        DetailViewController *controller1 =  (DetailViewController*)navController.topViewController;
         controller1.barcod = self.barcode1;
     }
 }
