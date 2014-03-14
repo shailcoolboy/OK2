@@ -13,6 +13,10 @@
 @end
 
 @implementation DetailViewController
+@synthesize name;
+@synthesize brand,cal,serve,weight;
+@synthesize ingredients;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -50,9 +54,35 @@
         
         NSDictionary *Detail = self.item[0];
         NSArray *image = [Detail objectForKey:@"image_urls"];
+        self.name.text = [Detail objectForKey:@"product_name"];
+        self.brand.text = [Detail objectForKey:@"brand"];
+        NSArray *ing = [Detail objectForKey:@"ingredients"];
+        
+        NSString *cal1=[Detail objectForKey:@"calories"];
+        NSInteger calint = [cal1 intValue];
+        //self.cal.text = calo;
+        [self.cal setText:[NSString stringWithFormat:@"%d", calint]];
+        //self.cal.text = [NSString stringWithFormat:@"%d",
+         //                   [[Detail objectForKey:@"calories"] intValue]];
+        NSArray *w= [Detail objectForKey:@"size"];
+        //self.weight.text = [w lastObject];
         
         
-        NSLog(@"The Array: %@",[image lastObject]);
+        self.weight.text=[[[w lastObject] componentsSeparatedByString:@";"] lastObject];
+        
+        
+        self.serve.text = [Detail objectForKey:@"serving_size"];
+
+        //NSString *result = [[ing valueForKey:@"description"] componentsJoinedByString:@","];
+        //NSString *result = [ing description];
+        NSString *result=[ing componentsJoinedByString:@", "];
+        
+        self.ingredients.text = result;
+                     
+        [_bgimage setImageWithURL:[NSURL URLWithString:[image lastObject]]
+                  placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
+        
+        NSLog(@"The Array: %d",calint);
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         

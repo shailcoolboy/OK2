@@ -15,5 +15,6 @@
     #import "AFNetworking.h"
     #import <Foundation/Foundation.h>
     #import <Parse/Parse.h>
+    #import <SDWebImage/UIImageView+WebCache.h>
 
 #endif
