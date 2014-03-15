@@ -133,5 +133,10 @@
         //[segue.destinationViewController setNavigationBarHidden:YES];
     }
 
+    if ([segue.identifier isEqualToString:@"showlogin"]) {
+        [segue.destinationViewController setHidesBottomBarWhenPushed:YES];
+        //[segue.destinationViewController setNavigationBarHidden:YES];
+    }
+    
 }
 @end

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "homeTableViewController.h"
 
 @interface DetailViewController : UIViewController
 @property(nonatomic) NSString *barcod;
@@ -18,4 +19,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *cal;
 @property (weak, nonatomic) IBOutlet UILabel *weight;
 @property (weak, nonatomic) IBOutlet UILabel *serve;
+- (IBAction)addin:(id)sender;
+
 @end

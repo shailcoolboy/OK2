@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "UIButton+PPiAwesome.h"
 
 @interface DetailViewController ()
 
@@ -30,7 +31,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-        
+    self.navigationItem.hidesBackButton = YES;
+ 
     //NSString *shail = @"363824730165";
     static NSString *const BaseURLString = @"http://api.v3.factual.com/t/products-cpg-nutrition?filters={\"upc\":\"";
     static NSString *const end = @"\"}";
@@ -84,6 +86,20 @@
         
         NSLog(@"The Array: %d",calint);
         
+        
+        
+        UIButton *add=[UIButton buttonWithType:UIButtonTypeCustom text:@"   Add Item!" icon:@"fa-plus" textAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:22],NSForegroundColorAttributeName:[UIColor whiteColor]} andIconPosition:IconPositionLeft];
+        [add addTarget:self action:@selector(addin:) forControlEvents:UIControlEventTouchUpInside];
+        [add setBackgroundColor:[UIColor colorWithRed:205.0f/255 green:35.0f/255 blue:44.0f/255 alpha:1.0] forUIControlState:UIControlStateNormal];
+        [add setBackgroundColor:[UIColor colorWithRed:244.0f/255 green:61.0f/255 blue:91.0f/255 alpha:1.0] forUIControlState:UIControlStateHighlighted];
+        
+        add.frame=CGRectMake(75, 475, 180, 40);
+        [add setRadius:0.0];
+        [self.view addSubview:add];
+
+        
+        
+        
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
         NSLog(@"This is it: %@", joinString);
@@ -108,11 +124,20 @@
     // Do any additional setup after loading the view.
 }
 
+
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
+- (IBAction)addin:(id)sender {
+}
+
 
 /*
 #pragma mark - Navigation
@@ -124,5 +149,8 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+//- (IBAction)home:(id)sender {
+//}
 
 @end

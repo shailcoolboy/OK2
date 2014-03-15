@@ -67,6 +67,11 @@
 		AECF009F18D2DBB1009B0AE7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECF009E18D2DBB1009B0AE7 /* DetailViewController.m */; };
 		AECF00A118D36E19009B0AE7 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECF00A018D36E19009B0AE7 /* SDWebImage.framework */; };
 		AECF00A318D36E3E009B0AE7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECF00A218D36E3D009B0AE7 /* ImageIO.framework */; };
+		AECF00A618D3C79C009B0AE7 /* addbar.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF00A418D3C79C009B0AE7 /* addbar.png */; };
+		AECF00A718D3C79C009B0AE7 /* addbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF00A518D3C79C009B0AE7 /* addbar@2x.png */; };
+		AECF00AA18D3C8BF009B0AE7 /* it.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF00A818D3C8BF009B0AE7 /* it.png */; };
+		AECF00AB18D3C8BF009B0AE7 /* it@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AECF00A918D3C8BF009B0AE7 /* it@2x.png */; };
+		AECF00AE18D3DE64009B0AE7 /* navViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECF00AD18D3DE64009B0AE7 /* navViewController.m */; };
 		AEDED84F18D21406006690A1 /* boxes256.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDED84E18D21406006690A1 /* boxes256.png */; };
 		AEDED85518D21E30006690A1 /* usr.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDED85118D21E30006690A1 /* usr.png */; };
 		AEDED85618D21E30006690A1 /* usr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDED85218D21E30006690A1 /* usr@2x.png */; };
@@ -195,6 +200,12 @@
 		AECF009E18D2DBB1009B0AE7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		AECF00A018D36E19009B0AE7 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = ../../Downloads/SDWebImage.framework; sourceTree = "<group>"; };
 		AECF00A218D36E3D009B0AE7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		AECF00A418D3C79C009B0AE7 /* addbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addbar.png; path = ../../../Downloads/addbar.png; sourceTree = "<group>"; };
+		AECF00A518D3C79C009B0AE7 /* addbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "addbar@2x.png"; path = "../../../Downloads/addbar@2x.png"; sourceTree = "<group>"; };
+		AECF00A818D3C8BF009B0AE7 /* it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = it.png; path = ../../../Downloads/it.png; sourceTree = "<group>"; };
+		AECF00A918D3C8BF009B0AE7 /* it@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "it@2x.png"; path = "../../../Downloads/it@2x.png"; sourceTree = "<group>"; };
+		AECF00AC18D3DE64009B0AE7 /* navViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = navViewController.h; path = ../navViewController.h; sourceTree = "<group>"; };
+		AECF00AD18D3DE64009B0AE7 /* navViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = navViewController.m; path = ../navViewController.m; sourceTree = "<group>"; };
 		AEDED84E18D21406006690A1 /* boxes256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boxes256.png; path = "../../../Downloads/Grocery Icon Set by @weirdeetz/boxes256.png"; sourceTree = "<group>"; };
 		AEDED85118D21E30006690A1 /* usr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usr.png; path = ../../../Desktop/login/usr.png; sourceTree = "<group>"; };
 		AEDED85218D21E30006690A1 /* usr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "usr@2x.png"; path = "../../../Desktop/login/usr@2x.png"; sourceTree = "<group>"; };
@@ -323,6 +334,10 @@
 		AEDED85018D21E1A006690A1 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				AECF00A818D3C8BF009B0AE7 /* it.png */,
+				AECF00A918D3C8BF009B0AE7 /* it@2x.png */,
+				AECF00A418D3C79C009B0AE7 /* addbar.png */,
+				AECF00A518D3C79C009B0AE7 /* addbar@2x.png */,
 				AECF009218D296BC009B0AE7 /* list.png */,
 				AECF009618D29836009B0AE7 /* cart.png */,
 				AECF009718D29836009B0AE7 /* cart@2x.png */,
@@ -398,6 +413,8 @@
 		AEFC39C018CBE0C6008D2133 /* OK2 */ = {
 			isa = PBXGroup;
 			children = (
+				AECF00AC18D3DE64009B0AE7 /* navViewController.h */,
+				AECF00AD18D3DE64009B0AE7 /* navViewController.m */,
 				AEDED85018D21E1A006690A1 /* images */,
 				AE32082318CBFB0700A541DE /* AFNetworking */,
 				AE32083718CBFB0700A541DE /* UIKit+AFNetworking */,
@@ -560,7 +577,9 @@
 				AECF009118D2906C009B0AE7 /* nav.png in Resources */,
 				AEDED85618D21E30006690A1 /* usr@2x.png in Resources */,
 				AEDED86018D2200A006690A1 /* login@2x.png in Resources */,
+				AECF00AB18D3C8BF009B0AE7 /* it@2x.png in Resources */,
 				AEDED85518D21E30006690A1 /* usr.png in Resources */,
+				AECF00A618D3C79C009B0AE7 /* addbar.png in Resources */,
 				AECF009418D296BC009B0AE7 /* list.png in Resources */,
 				AE32080B18CBE3F100A541DE /* bg1.jpg in Resources */,
 				AE32081418CBE3FA00A541DE /* AppIcon76x76.png in Resources */,
@@ -573,7 +592,9 @@
 				AE32081B18CBE40500A541DE /* FlatSignIn.png in Resources */,
 				AE32081A18CBE40500A541DE /* face.png in Resources */,
 				AEDED85718D21E30006690A1 /* wazo 1.png in Resources */,
+				AECF00AA18D3C8BF009B0AE7 /* it.png in Resources */,
 				AE40852618D2613200ACDC3E /* Slice 1.png in Resources */,
+				AECF00A718D3C79C009B0AE7 /* addbar@2x.png in Resources */,
 				AEDED85F18D2200A006690A1 /* login.png in Resources */,
 				AE40852118D244B800ACDC3E /* bottle2.png in Resources */,
 				AE3B464718D1926300A5F081 /* frontscreen@2x.png in Resources */,
@@ -646,6 +667,7 @@
 				AE32085418CBFB0700A541DE /* UIAlertView+AFNetworking.m in Sources */,
 				AE32084F18CBFB0700A541DE /* AFURLRequestSerialization.m in Sources */,
 				AE3207EF18CBE1E500A541DE /* scanViewController.m in Sources */,
+				AECF00AE18D3DE64009B0AE7 /* navViewController.m in Sources */,
 				AE32085118CBFB0700A541DE /* AFURLSessionManager.m in Sources */,
 				AEFC39CB18CBE0C6008D2133 /* AppDelegate.m in Sources */,
 				AE32084A18CBFB0700A541DE /* AFHTTPRequestOperationManager.m in Sources */,

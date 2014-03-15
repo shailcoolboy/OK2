@@ -87,15 +87,16 @@
     // The Display Code Outline only works if this method returns NO
     return YES;
 }
+
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([segue.identifier isEqualToString:@"api"]){
-        
+       //[segue.destinationViewController setHidesBottomBarWhenPushed:YES];
         //UINavigationController *navController = (UINavigationController*)segue.destinationViewController;
         //DetailViewController *controller1 =  (DetailViewController*)segue.destinationViewController;
-        //DetailViewController *controller1 = [segue destinationViewController];
+        DetailViewController *controller1 = [segue destinationViewController];
         //DetailViewController *controller1 = (DetailViewController *)navController.topViewController;
-        UINavigationController *navController = (UINavigationController*)segue.destinationViewController;
-        DetailViewController *controller1 =  (DetailViewController*)navController.topViewController;
+        //UINavigationController *navController = (UINavigationController*)segue.destinationViewController;
+        //DetailViewController *controller1 =  (DetailViewController*)navController.topViewController;
         controller1.barcod = self.barcode1;
     }
 }
